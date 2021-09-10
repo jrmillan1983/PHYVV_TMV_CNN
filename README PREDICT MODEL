@@ -1,0 +1,11 @@
+How to consume the pre-trained Xception model (from NGBVI dataset)
+
+We used Keras version 2.2.4, with Tensorflow 1.13.1 as backend, and Python version 3.7.8.
+
+python predict.py MODEL_NAME.h5 IMAGE_TEST_PATCH
+
+Examples:
+	python predict.py xception TEST/HEALTHY/p_1.png
+	python predict.py xception TEST/PHYVV/GBN_2.png
+	python predict.py xception TEST/TMV/GBN_1.png
+

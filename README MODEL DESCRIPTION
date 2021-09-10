@@ -1,0 +1,8 @@
+Pre-trained Xception model (from NGBVI dataset)
+
+In order to support research in PHYVV and TMV Identification in Jalapeño Pepper (Capsicum annuum) Leaves, we share the pre-trained Xception CNN model. We believe that this pre-trained model may be a good starting point for future research in virus indentification. Note, to build this model, transfer learning from pre-trained models on ImageNet dataset was used.
+
+Usage
+
+The model is shared in the form of H5 format, that is, a file format to store structured data to easily share. Keras saves models in this format as it can easily store the weights and model configuration in a single file. We used Keras version 2.2.4, with Tensorflow 1.13.1 as backend, and Python version 3.7.8.
+
